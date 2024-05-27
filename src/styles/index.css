@@ -10,3 +10,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.traffic-light {
+    margin: 0 auto;
+    background: black;
+    width: 200px;
+    height: 400px;
+}
+
+.light {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.light-on {
+    box-shadow: 12px 12px 12px 12px lightgoldenrodyellow;
+}
